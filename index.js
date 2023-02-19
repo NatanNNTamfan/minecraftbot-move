@@ -3,7 +3,7 @@ const mineflayer = require('mineflayer')
 
 const bot = mineflayer.createBot({
     host: 'BINFOR.aternos.me',
-    username: 'bagas',
+    username: 'GW PENJAGA SERVER',
 //    port: 64509,
     // password: this.password,
     verbose: true,
@@ -19,7 +19,7 @@ console.log(username + ' : ' + message);
 
 bot.once('spawn', () => {
     setInterval(movement, 1000)
-    setInterval(iklan, 90000);
+    setInterval(iklan, 100000);
     function iklan() {
         Math.random() < 0.5 ? bot.chat('GW BAUUUUUUUUUUUUUU') : bot.chat('GW BAU BANGETTTTTT!')
     }
