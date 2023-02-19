@@ -1,3 +1,4 @@
 # minecraftbot-move
-npm i
-node index.js
+how to use:
+#npm i
+#node index.js
