@@ -19,9 +19,9 @@ console.log(username + ' : ' + message);
 
 bot.once('spawn', () => {
     setInterval(movement, 1000)
-    setInterval(iklan, 100000);
+    setInterval(iklan, 100);
     function iklan() {
-        Math.random() < 0.5 ? bot.chat('Join Bgstopia.aternos.me') : bot.chat('Hai, saya adalah player!')
+        Math.random() < 0.5 ? bot.chat('GW BAUUUUUUUUUUUUUU') : bot.chat('GW BAU BANGETTTTTT!')
     }
     async function movement() {
         console.log("ok");
